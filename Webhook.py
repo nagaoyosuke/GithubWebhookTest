@@ -48,7 +48,7 @@ def gitcallback():
         s = s + "\n\n"
         s = s + str("コミットした時間は: {}".format(data['commits'][0]['timestamp']))
         s = s + '\n 以上です'
-        s = s + '\n https://github.com/nagaoyosuke/GithubWebhook' 
+        s = s + '\n https://github.com/nagaoyosuke/GithubWebhookTest' 
         Send(s,LINEGROUPID)
     except:
         Send('エラーです',LINEID)
