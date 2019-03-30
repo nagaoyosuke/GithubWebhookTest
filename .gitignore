@@ -13,3 +13,4 @@ ExportedObj/
 *.sln
 
 /config.py
+/test.json
